@@ -1,0 +1,4 @@
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("i skid so much i like skidding scripts lol xdd", "All")
