@@ -1,0 +1,4 @@
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Scripture Hub ❯ The Next Generation ❯ By Mini0n", "All")
